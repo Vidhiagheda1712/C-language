@@ -15,7 +15,7 @@ main() {
         printf("your grade is B...Congratulations! You are eligible for the next level.\n");
     } 
 	else if (score>=61 && score<=70) {
-        printf("your grade is C...Congratulations! You are eligible for the next level.\n");
+        printf("your grade is C.. Congratulations! You are eligible for the next level.\n");
     }
 	else if (score>=51 && score<=60) {
         printf("your grade is D...Congratulations! You are eligible for the next level.\n");
