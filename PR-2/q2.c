@@ -35,6 +35,9 @@ main(){
         case 'D':
             printf("Your grade is D.You passed, but you could do better.\n");
             break;
+	 case 'E':
+            printf("Your grade is E.Sorry, you are failed.\n");
+            break;
         case 'F':
             printf("Your grade is F.Sorry, you are failed.\n");
             break;
