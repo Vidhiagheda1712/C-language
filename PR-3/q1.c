@@ -4,10 +4,7 @@ main(){
 	 
 	 do{
 	 	printf("%c ",i);
-	 	i++;
-	 	i++;
-	 	i++;
-	 	i++;
+	 	i+=4;
 	 }
 	 while(i<=122);
 }
