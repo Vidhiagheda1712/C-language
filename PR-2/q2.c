@@ -8,19 +8,19 @@ main(){
           (score >= 91 && score<=100)
 	            ? grade ='A' 
 				:
-           (score >= 80 && score<=90) 
+           (score >= 81 && score<=90) 
 		       ?  grade ='B' 
 			   :
-           (score >= 70 && score<=80) 
+           (score >= 71 && score<=80) 
 		       ?  grade ='C' 
 			   :
-           (score >= 50 && score<=60) 
+           (score >= 61 && score<=70) 
 		        ?  grade ='D' 
 			 :
-           (score >= 40 && score<=50) 
+           (score >= 51 && score<=60) 
 		       ?  grade ='E' 
 			   :
-	  (score >= 33 && score <= =40) 
+	  (score >= 0 && score <=50) 
 		 ?  grade ='F' 
 		 : printf("");
 				
@@ -39,7 +39,7 @@ main(){
             printf("Your grade is D.You passed, but you could do better.\n");
             break;
 	 case 'E':
-            printf("Your grade is E.You passed, but you need to hard work.y\n");
+            printf("Your grade is E.You passed, but you need to hard work.\n");
             break;
         case 'F':
             printf("Your grade is F.Sorry, you are failed.\n");
