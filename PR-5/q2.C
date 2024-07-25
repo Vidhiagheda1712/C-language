@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int main() {
-    int row, col;
+main() {
+    int row, col ,largest;
     
     
     printf("Enter the array's row size: ");
@@ -21,7 +21,7 @@ int main() {
     }
     
     
-    int largest = a[0][0];
+  largest = a[0][0];
     for (int i = 0; i < row; i++) {
         for (int j = 0; j < col; j++) {
             if (a[i][j] > largest) {
