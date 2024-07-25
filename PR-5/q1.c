@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+main() {
     int n;
     printf("Enter Array Size: ");
     scanf("%d", &n);
