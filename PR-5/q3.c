@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-int main() {
+ main() {
     int row, col;
     
    
     printf("Enter the array's row & column size: ");
     scanf("%d", &row);
     col = row;
-    int a[row][col], 
+    a[row][col], 
     transpose[col][row];
     
  
