@@ -2,7 +2,7 @@
 
 
     
-    main(){
+main(){
     
     int i ,j , k;
     
