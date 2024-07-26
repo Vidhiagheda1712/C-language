@@ -7,7 +7,7 @@ main(){
         for (int j = i; j<= 5; j++)
         {
            if(i%2==1){
-            printf("a ");
+            printf("%c ",i+96);
            }
            else{
             printf("%d ",i);
