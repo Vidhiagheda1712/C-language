@@ -1,16 +1,16 @@
 #include <stdio.h>
 
-int main() {
-    int rows = 4; 
-    int num = 11;
+ main() {
+   
     int i,j;
+    int n=11;
     
     
-    for ( i = 1; i <= rows; i++) {
+    for ( i = 11; i <=14 ; i++) {
        
-        for ( j = 1; j <= i; j++) {
-            printf("%d ", num); 
-            num++; 
+        for ( j = 11; j <= i; j++) {
+            printf("%d ", n); 
+            n++; 
         }
         printf("\n"); 
     }
