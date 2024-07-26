@@ -6,7 +6,7 @@ main(){
 	 printf("Enter the Value of C:-");
 	 scanf("%d",&c);
 	 
-	 float ans = (c*9/5) + 32;
+	 float ans = (c*59) + 32;
 	 
 	 printf("%f",ans);
 }

@@ -5,24 +5,21 @@ main(){
 	int score ;
 	printf("Enter Your Score :");
 	scanf("%d",&score);
-          (score >= 91 && score<=100)
+          (score >= 90)
 	            ? grade ='A' 
 				:
-           (score >= 81 && score<=90) 
+           (score >= 80) 
 		       ?  grade ='B' 
 			   :
-           (score >= 71 && score<=80) 
+           (score >= 70) 
 		       ?  grade ='C' 
 			   :
-           (score >= 61 && score<=70) 
+           (score >= 50) 
 		        ?  grade ='D' 
-			 :
-           (score >= 51 && score<=60) 
-		       ?  grade ='E' 
-			   :
-	  (score >= 0 && score <=50) 
-		 ?  grade ='F' 
-		 : printf("");
+				:
+			(score >= 33 && score <= 50) 
+		        ?  grade ='F' 
+				: printf("");
 				
 				
      switch(grade) {
@@ -37,9 +34,6 @@ main(){
             break;
         case 'D':
             printf("Your grade is D.You passed, but you could do better.\n");
-            break;
-	 case 'E':
-            printf("Your grade is E.You passed, but you need to hard work.\n");
             break;
         case 'F':
             printf("Your grade is F.Sorry, you are failed.\n");
