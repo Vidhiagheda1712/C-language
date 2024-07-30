@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Vidhi/C-language/WITHOUT SPACE PATTERN",
-      "program": "d:/Vidhi/C-language/WITHOUT SPACE PATTERN/build/Debug/outDebug",
+      "cwd": "d:/Vidhi/C-language/PR-1",
+      "program": "d:/Vidhi/C-language/PR-1/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
