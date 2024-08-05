@@ -1,26 +1,25 @@
 #include <stdio.h>
 
-main() {
+main()
+{
     char name[20];
-    int freq[256] = {0};
-    int i;
+    
 
-   
     printf("Enter any string: ");
     gets(name);
 
-   
-    for (i = 0; name[i] != '\0'; i++) {
-        if (name[i] != '\n') { 
-            freq[name[i]]++;
+    for (int i = 0; name[i] != '\0'; i++)
+    {
+        int feq = 1;
+        for (int j = i + 1; name[j] != '\0'; j++)
+        {
+            if(name[i] == name[j])
+            {
+                feq++;
+                name[j] = '\0';
+            }
         }
-    }
-  printf("Frequency of each letter:\n");
-    for (i = 0; i < 256; i++) {
-        if (freq[i] > 0) {
-            printf("%c => %d\n", i, freq[i]);
-        }
-    }
-
+        printf("%c => %d\n",name[i],feq);
     
+    }
 }
