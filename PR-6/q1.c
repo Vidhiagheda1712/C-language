@@ -12,7 +12,6 @@
     for (i = 0; name[i] != '\0'; i++) {
         if (name[i] == '\n') {
             name[i] = '\0';  
-          
         }
     }
     len = i;
