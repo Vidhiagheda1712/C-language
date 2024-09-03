@@ -26,15 +26,26 @@ void main()
             scanf("%d", &a[i][j]);
         }
     }
+    printf("\n");
+    printf("Array :\n");
+    for (int i = 0; i < row; i++)
+    {
+
+        for (int j = 0; j < col; j++)
+        {
+            printf("%d ", a[i][j]);
+        }
+        printf("\n");
+    }
 
     printf("\n");
 
-    printf("Cubes of all elements:\n\n");
+    printf("Cubes of all elements:\n");
     for (int i = 0; i < row; i++)
     {
         for (int j = 0; j < col; j++)
         {
-            printf("%d ", Cube(&a[i][j]));
+            printf("%d  ", Cube(&a[i][j]));
         }
         printf("\n");
     }
