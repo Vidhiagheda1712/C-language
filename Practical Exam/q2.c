@@ -2,7 +2,7 @@
 
 
 
-void countVowels(char name[20], int a, int e int i, int o; int u) {
+void countVowels(char name[20], int a, int e ,int i, int o, int u) {
  
     a = 0;
     e= 0;
