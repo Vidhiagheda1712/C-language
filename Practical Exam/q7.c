@@ -6,15 +6,17 @@ int main(){
 
      fp =fopen("capitalize.txt","w");
 
+     char name[20];
 
-
+     printf("Enter Any Name :");
+     gets(name);
       if(fp != '\0'){
           fprintf(fp,"Capital format Sentence :\n\n");
-
-         fprintf(fp,"hello world\n");
-          if(fp =="A" && fp =="Z"){
-             fp+=32;
-            fprintf(fp,"hello world")
+          for(int i=0; name[i]!='\0'; i++)
+          if(i =='a' && i =='z'){
+            i-=32;
+            fprintf(fp,"%c",name[i]);
+            
           }
       }
       else{
