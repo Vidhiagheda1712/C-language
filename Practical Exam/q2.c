@@ -2,7 +2,7 @@
 
 
 
-void countVowels(char name[20], int a, int e ,int i, int o, int u) {
+void Vovel(char name[20], int a, int e ,int i, int o,int u) {
  
     a = 0;
     e= 0;
@@ -10,10 +10,10 @@ void countVowels(char name[20], int a, int e ,int i, int o, int u) {
     o = 0;
     u= 0;
    
-    char v[20];
-    while (vovel) {
+    char choice;
+       for(i=0; name[i] !='\0';i++){
         
-        switch (v) {
+        switch (choice) {
             case 'a':
              a++;
               break;
@@ -30,7 +30,7 @@ void countVowels(char name[20], int a, int e ,int i, int o, int u) {
             u++;
              break;
         }
-        name++;
+        i++;
     }
 }
 
@@ -43,7 +43,7 @@ int main() {
     gets("name");
 
     
-    countVowels(name, a, e, i, o, u);
+    Vowel(name, a, e, i, o, u);
 
     
     printf("Number of vowels:\n");
@@ -55,3 +55,4 @@ int main() {
 
     
 }
+
